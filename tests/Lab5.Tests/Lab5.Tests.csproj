@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <IsPackable>false</IsPackable>
+        <IsTestProject>true</IsTestProject>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="coverlet.collector"/>
+        <PackageReference Include="Microsoft.NET.Test.Sdk"/>
+        <PackageReference Include="Moq" />
+        <PackageReference Include="xunit"/>
+        <PackageReference Include="xunit.runner.visualstudio"/>
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\..\LaboratoryWork5.Adapters\LaboratoryWork5.Adapters.csproj" />
+      <ProjectReference Include="..\..\LaboratoryWork5.Logic\LaboratoryWork5.Logic.csproj" />
+      <ProjectReference Include="..\..\LaboratoryWork5.Ports\LaboratoryWork5.Ports.csproj" />
+      <ProjectReference Include="..\..\src\Lab5\Lab5.csproj" />
+    </ItemGroup>
+
+</Project>

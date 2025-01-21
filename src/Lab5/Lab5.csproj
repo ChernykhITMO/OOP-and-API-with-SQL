@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <RootNamespace>Itmo.ObjectOrientedProgramming.Lab5</RootNamespace>
+        <OutputType>Exe</OutputType>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Npgsql" />
+      <PackageReference Include="Swashbuckle.AspNetCore" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\..\LaboratoryWork5.Adapters\LaboratoryWork5.Adapters.csproj" />
+      <ProjectReference Include="..\..\LaboratoryWork5.Logic\LaboratoryWork5.Logic.csproj" />
+      <ProjectReference Include="..\..\LaboratoryWork5.Ports\LaboratoryWork5.Ports.csproj" />
+    </ItemGroup>
+    
+</Project>
